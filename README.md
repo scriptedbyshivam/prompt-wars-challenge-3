@@ -1,10 +1,10 @@
-# 🌿 Carbon Ledger — Field Journal
+# 🌿 EcoTrace — Personal Footprint Journal
 
-> *"We do not inherit the earth from our ancestors; we borrow it from our children."* — Indigene Proverb
+> *"The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share."* — Lady Bird Johnson
 
-A personal carbon footprint tracker and awareness platform built for **PromptWars: Virtual — Challenge 3** by Hack2Skill × Google for Developers.
+A modern personal carbon footprint tracker and sustainability journal designed for **PromptWars: Virtual — Challenge 3** by Hack2Skill × Google for Developers.
 
-Carbon Ledger helps individuals **understand, track, and reduce their carbon footprint** through simple daily activity logging and personalized, data-driven insights — presented as a naturalist's field journal.
+EcoTrace helps individuals **understand, track, and reduce their carbon footprint** through intuitive daily activity logging and personalized, data-driven insights — presented as a naturalist's field journal.
 
 ---
 
@@ -50,7 +50,7 @@ Carbon Ledger helps individuals **understand, track, and reduce their carbon foo
 ## 📁 Project Structure
 
 ```
-carbon-ledger/
+prompt-wars-challenge-3/
 ├── dist/                  # Built static production files
 ├── public/                # Static public assets
 ├── src/
@@ -126,8 +126,8 @@ carbon-ledger/
 
 ```bash
 # Clone the repository
-git clone https://github.com/scriptedbyshivam/carbon-ledger.git
-cd carbon-ledger
+git clone https://github.com/scriptedbyshivam/prompt-wars-challenge-3.git
+cd prompt-wars-challenge-3
 
 # Install dependencies
 npm install
@@ -221,7 +221,7 @@ All factors are approximate and intended for **personal awareness only** — not
 
 ## ♿ Accessibility
 
-Carbon Ledger is built to meet **WCAG 2.1 AA** standards:
+EcoTrace is built to meet **WCAG 2.1 AA** standards:
 
 - Semantic HTML throughout (`<nav>`, `<main>`, `<section>`, correct heading hierarchy)
 - All form inputs have associated `<label>` elements — not just placeholders
@@ -237,7 +237,7 @@ Carbon Ledger is built to meet **WCAG 2.1 AA** standards:
 
 ## 🔒 Security & Quality Engineering
 
-See [`SECURITY.md`](./SECURITY.md) for full details. Key safeguards in Attempt 2:
+See [`SECURITY.md`](./SECURITY.md) for full details. Key safeguards implemented in the application:
 
 - **Input Sanitization & Coercion**: Built with Zod to intercept NaN/Infinity values, strip leading/trailing spaces, and enforce reasonable limits on all entries (e.g. max distance of 1000 km/day).
 - **Secure Persistence Layer**:
