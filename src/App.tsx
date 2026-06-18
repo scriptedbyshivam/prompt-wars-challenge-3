@@ -5,7 +5,7 @@ import LogActivityView from './components/LogActivityView';
 import InsightsView from './components/InsightsView';
 import ErrorBoundary from './components/ErrorBoundary';
 import { 
-  Book, 
+  Leaf, 
   LayoutDashboard, 
   PenTool, 
   Lightbulb, 
@@ -71,14 +71,14 @@ function App(): React.ReactElement {
           {/* Logo Header */}
           <div className="flex items-center space-x-3 px-2">
             <div className="w-10 h-10 rounded-lg bg-ink flex items-center justify-center text-paper shadow-sm">
-              <Book className="w-5 h-5" />
+              <Leaf className="w-5 h-5 text-leaf-light" />
             </div>
             <div>
               <h1 className="text-xl font-serif-journal font-bold text-ink leading-tight">
-                Carbon Ledger
+                EcoTrace
               </h1>
               <span className="text-[10px] tracking-wider text-graphite uppercase font-semibold">
-                Field Journal
+                Eco-Journal
               </span>
             </div>
           </div>

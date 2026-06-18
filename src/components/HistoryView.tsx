@@ -42,7 +42,7 @@ interface ChartRow {
 }
 
 /**
- * Renders the historical carbon ledger logs, trend curves, and tabular summaries.
+ * Renders the historical EcoTrace logs, trend curves, and tabular summaries.
  *
  * @param {HistoryViewProps} props - Props containing activities logs and deletion callback
  * @returns {React.ReactElement} The history view dashboard tab component

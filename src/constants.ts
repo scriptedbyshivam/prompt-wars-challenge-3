@@ -1,5 +1,5 @@
 /**
- * Carbon Ledger — Constants and Magic Numbers Configuration
+ * EcoTrace — Constants and Magic Numbers Configuration
  * 
  * Sourced constants and security boundaries used across the calculation,
  * storage, validation, and rendering components.

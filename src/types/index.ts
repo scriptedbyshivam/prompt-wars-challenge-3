@@ -43,7 +43,7 @@ export interface WasteDetails {
 }
 
 /**
- * Supported activity categories in Carbon Ledger.
+ * Supported activity categories in EcoTrace.
  */
 export type ActivityCategory = 'transport' | 'energy' | 'food' | 'waste';
 

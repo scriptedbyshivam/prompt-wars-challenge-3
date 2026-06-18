@@ -5,7 +5,7 @@ import {
 } from '../constants';
 
 /**
- * Emission factors dataset for Carbon Ledger (measured in kg CO₂e per unit).
+ * Emission factors dataset for EcoTrace (measured in kg CO₂e per unit).
  * Sourced from India-specific grid-adjusted databases and IPCC guidelines.
  * 
  * Sourced details:

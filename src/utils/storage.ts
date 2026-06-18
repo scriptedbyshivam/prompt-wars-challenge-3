@@ -2,9 +2,9 @@ import { Activity } from '../types';
 import { activityListSchema, achievementsStateSchema } from './validation';
 import { MAX_STORAGE_BYTES, STORAGE_VERSION, MAX_ENTRIES_PER_DATE } from '../constants';
 
-const VERSION_KEY = 'carbon_ledger_version' as const;
-const ACTIVITIES_KEY = 'carbon_ledger_activities' as const;
-const ACHIEVEMENTS_KEY = 'carbon_ledger_achievements' as const;
+const VERSION_KEY = 'ecotrace_version' as const;
+const ACTIVITIES_KEY = 'ecotrace_activities' as const;
+const ACHIEVEMENTS_KEY = 'ecotrace_achievements' as const;
 
 /**
  * Calculates the total size of a string in bytes.
@@ -171,7 +171,7 @@ export function saveAchievements(state: Readonly<Record<string, string | null>>)
 }
 
 /**
- * Clears all Carbon Ledger data from localStorage.
+ * Clears all EcoTrace data from localStorage.
  *
  * @returns {void}
  */
